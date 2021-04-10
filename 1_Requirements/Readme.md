@@ -17,7 +17,7 @@
 
 ## Who:
 
-**TBD**
+Each and every organization, company, and any place where there are lots of employees and staffs who work.
 
 ## What:
 
@@ -25,15 +25,15 @@
 
 ## When:
 
-**TBD**
+All the time as required.
 
 ## Where:
 
-**TBD**
+In organizations, offices, schools, companies, police offices.
 
 ## How:
 
-**TBD**
+By keeping the contact information of the employees and staffs working in a organization so that in any need they can be retrieved, altered, and displayed.
 
 # Detail requirements
 ## High Level Requirements:
