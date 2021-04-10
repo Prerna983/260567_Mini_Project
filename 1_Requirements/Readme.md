@@ -1,6 +1,6 @@
 # Requirements
 ## Introduction
- --- TBD 
+Main aim of making this application is to provide a system to store the contact details of all the employees in an organization so that the information can be useful in retrieving the data of a particular employee during times of need as well as to have a record of all those people working in the organization.
 
 ## Research
 ![Description](Link to Pic)
