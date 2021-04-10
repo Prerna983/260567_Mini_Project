@@ -1,6 +1,6 @@
 # Requirements
 ## Introduction
- --- TBD 
+Main aim of making this application is to provide a system to store the contact details of all the employees in an organization so that the information can be useful in retrieving the data of a particular employee during times of need as well as to have a record of all those people working in the organization.
 
 ## Research
 ![Description](Link to Pic)
@@ -17,7 +17,7 @@
 
 ## Who:
 
-**TBD**
+Each and every organization, company, and any place where there are lots of employees and staffs who work.
 
 ## What:
 
@@ -25,15 +25,15 @@
 
 ## When:
 
-**TBD**
+All the time as required.
 
 ## Where:
 
-**TBD**
+In organizations, offices, schools, companies, police offices.
 
 ## How:
 
-**TBD**
+By keeping the contact information of the employees and staffs working in a organization so that in any need they can be retrieved, altered, and displayed.
 
 # Detail requirements
 ## High Level Requirements:
