@@ -51,6 +51,17 @@ void test_Add_file(void)
 
 }
 
+void test_Search_file(void) 
+{
+  
+  TEST_ASSERT_EQUAL(1, search("ravi"));
+  TEST_ASSERT_EQUAL(1, search("yash"));
+  
+  /* Dummy fail*/
+  //TEST_ASSERT_EQUAL(0, search("arav"));
+  //TEST_ASSERT_EQUAL(0, search("hello"));
+}
+
 void test_Edit_file(void) 
 {
   TEST_ASSERT_EQUAL(1, edit(6743484664, "yyaas", "goa", "abs@gmail.com", "yusuf"));
@@ -59,17 +70,6 @@ void test_Edit_file(void)
   /* Dummy fail*/
   //TEST_ASSERT_EQUAL(0, edit(9087848347, "happ", "west bengal", "happ@yahu.com", "happy"));
   //TEST_ASSERT_EQUAL(0, edit(8765697653, "ttok", "marine", "tok@allive.com", "ttok"));
-}
-
-void test_Search_file(void) 
-{
-  
-  TEST_ASSERT_EQUAL(1, search("happy"));
-  TEST_ASSERT_EQUAL(1, search("yash"));
-  
-  /* Dummy fail*/
-  //TEST_ASSERT_EQUAL(0, search("arav"));
-  //TEST_ASSERT_EQUAL(0, search("hello"));
 }
 
 void test_List_file(void) {
