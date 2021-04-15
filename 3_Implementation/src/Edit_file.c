@@ -10,7 +10,7 @@ int edit(long long int ph, char name[20], char add[20], char email[20], char edi
     int edit_done=0,i;
 
     /* opening two file, a main and a temporary file*/
-    fp=fopen("C:/Users/KIIT/Desktop/260567_Mini_Project/7_Other/data-set/contact.xlsx","r");
+    fp=fopen("contact.xlsx","r");
     ft=fopen("temp.dat","w");
 
     fflush(stdin);
@@ -41,8 +41,8 @@ int edit(long long int ph, char name[20], char add[20], char email[20], char edi
         fclose(fp);
         fclose(ft);
 
-        remove("C:/Users/KIIT/Desktop/260567_Mini_Project/7_Other/data-set/contact.xlsx");
-        rename("temp.dat","C:/Users/KIIT/Desktop/260567_Mini_Project/7_Other/data-set/contact.xlsx");
+        remove("contact.xlsx");
+        rename("temp.dat","contact.xlsx");
 
     edit_done=1;
     printf("\n................RECORD UPDATED................\n");
