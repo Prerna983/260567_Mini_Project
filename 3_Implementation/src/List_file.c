@@ -17,7 +17,7 @@ int view()
     for(int i=97; i<=122; i=i+1)
     {
         /* opening the file */
-        fp=fopen("C:/Users/KIIT/Desktop/260567_Mini_Project/7_Other/data-set/contact.xlsx","r");
+        fp=fopen("contact.xlsx","r");
         
         if(fp==NULL)
         {
