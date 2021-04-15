@@ -1,8 +1,14 @@
-/** 
-* @file header.h
-* Contact management system to store and update details 
-*
-*/
+/**
+ * @file header.h
+ * @author Prerna Agrawal
+ * @brief Header file for Contact Management System
+ * @version 0.1
+ * @date 2021-04-10
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
+
 #ifndef __HEADER_H__
 #define __HEADER_H__
 
@@ -24,6 +30,7 @@ struct contact
     char name[20],add[20],email[20];
 } list;
 
+
 /**
  * @brief two file pointers to store values to and retrieve values from the actual file
  * 
@@ -38,11 +45,15 @@ FILE *fp, *ft;
 void main_menu();
 
 /**
- * @brief function to add new entries to the existing database
+ * @brief function to add new entries to the existing database 
  * 
- * @return updated file with a new entry 
+ * @param ph 
+ * @param name 
+ * @param add 
+ * @param email 
+ * @return int 
  */
-int add();
+int add(long long int ph, char name[], char add[], char email[]);
 
 /**
  * @brief function to check for the validity of the city
@@ -71,16 +82,22 @@ int checkPh(long long n);
 /**
  * @brief function to edit existing database
  * 
- * @return updated file 
+ * @param ph 
+ * @param name 
+ * @param add 
+ * @param email 
+ * @param edit_name 
+ * @return int 
  */
-int edit();
+int edit(long long int ph, char name[20], char add[20], char email[20], char edit_name[20]);
 
 /**
  * @brief function to search for entries in the existing database
  * 
- * @return data of the searched contact 
+ * @param edit_name 
+ * @return int 
  */
-int search();
+int search(char edit_name[20]);
 
 
 /**
@@ -93,12 +110,13 @@ int view();
 /**
  * @brief function to delete an entry from the existing database
  * 
- * @return updated file with a deleted entry 
+ * @param edit_name 
+ * @return int 
  */
-int del();
+int del(char edit_name[20]);
 
 /**
- * @brief function to input values
+ * @brief function to input values for add and edit functions
  * 
  */
 void inputDet();
