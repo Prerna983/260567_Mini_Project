@@ -53,8 +53,8 @@ test:
 	./$(call FixPath,$(TEST_PROJ_NAME).$(EXEC))
 
 coverage:
-	cp test/test.c .
-	gcc -fprofile-arcs -ftest-coverage -I $(INC_H) -I $(INC_T) unity/unity.c test.c $(SRC) -o $(call FixPath, $(TEST_PROJ_NAME).$(EXEC)) -lm
+	cp test/Program_test.c .
+	gcc -fprofile-arcs -ftest-coverage -I $(INC_H) -I $(INC_T) unity/unity.c Program_test.c $(SRC) -o $(call FixPath, $(TEST_PROJ_NAME).$(EXEC)) -lm
 	$(call FixPath, ./$(TEST_PROJ_NAME).$(EXEC))
 	gcov -a $(COV_SRC)
 	$(RM) *.$(EXEC)
@@ -62,7 +62,7 @@ coverage:
 	$(RM) *.gcno
 	$(RM) *.c.gcov
 	$(RM) *.DAT
-	$(RM) test.c
+	$(RM) Program_test.c
 
 
 cppcheck:
