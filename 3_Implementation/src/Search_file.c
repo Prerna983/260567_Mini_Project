@@ -49,7 +49,7 @@ int search(char edit_name[])
             name[l]='\0';
             
             /* if contact exists, its data is printed */
-            if(stricmp(name,edit_name)==0)
+            if(strcasecmp(name,edit_name)==0)
             {
                 printf("\n..::Name\t: %s\n..::Phone\t: %lld\n..::Address\t: %s\n..::Email\t: %s\n",list.name,list.ph,list.add,list.email);
                 found++;
