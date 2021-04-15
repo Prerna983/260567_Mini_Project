@@ -6,7 +6,7 @@ Main aim of making this application is to provide a system to store the contact 
 ![Description](Link to Pic)
 -- Content 
 ## Cost and Features
-![Description](Link to Pic)
+
  
 Cost: 
 
@@ -22,6 +22,8 @@ The main features of this application are:
     - Any suspecious looking contact or person can be traced and reported to the police for enquiry.
 
 ## Defining Our System
+
+![System Design](https://github.com/Prerna983/260567_Mini_Project/blob/main/6_ImagesAndVideos/defining%20our%20prog%20image.JPG)
 
     - User can choose from the menu what would they like to do(add,delete,view,edit,search).
     - Accoding to the option they will be able to alter it.
