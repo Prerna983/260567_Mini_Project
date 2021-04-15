@@ -66,7 +66,7 @@ It can also help keep track of total employees working.
 
 # Detail requirements
 ## High Level Requirements:
---- TBD in Tabular Format 
+
  | ID  | Description | Status (Implemented/Future) |
  | --- | --- | --- |
  | HR01 | Add         | TBD-S1 |
@@ -74,13 +74,22 @@ It can also help keep track of total employees working.
  | HR03 | Edit        | TBD-S1 |
  | HR04 | Search      | TBD-S1 |
  | HR05 | Delete      | TBD-S1 |
+ | HR06 | Check Phone validity      | TBD-S1 |
+ | HR07 | Check Email validity      | TBD-S1 |
+ | HR08 | Check State validity      | TBD-S1 |
+ 
 
 ##  Low level Requirements:
 --- TBD in Tabular Format 
-  ID    |                           Description                           | HLR ID | Status (Implemented/Future)
- LR01   | Addition of new records during new recruitment                  |  HR01  | TBD-S1  
- LR02.1 | Listing of all the records of present employee in organization. |  HR02  | TBD-S1
- LR02.2 | It includes name, phone number, address, and email id.          |  HR02  | TBD-S1
- LR03   | Editing the previously entered details and updating it.         |  HR03  | TBD-S1
- LR04   | Searching contacts based on phone numbers and names.            |  HR04  | TBD-S1
- LR05   | Deletion of selected contacts from the database.                |  HR05  | TBD-S1
+|  ID    |                           Description                           | HLR ID | Status (Implemented/Future) |
+| --- | --- | --- | --- |
+| LR01   | Addition of new records during new recruitment                  |  HR01  | TBD-S1  |
+| LR02.1 | Listing of all the records of present employee in organization. |  HR02  | TBD-S1  |
+| LR02.2 | It includes name, phone number, address, and email id.          |  HR02  | TBD-S1  |
+| LR03   | Editing the previously entered details and updating it.         |  HR03  | TBD-S1  |
+| LR04   | Searching contacts based on phone numbers and names.            |  HR04  | TBD-S1  |
+| LR05   | Deletion of selected contacts from the database.                |  HR05  | TBD-S1  |
+| LR06   | Checking the validity of phone number if it is of 10 digits or not and if it is only digit input        |  HR06  | TBD-S1  |
+| LR07.1   | Checking for validity of email ID if it is in right format        |  HR07  | TBD-S1  |
+| LR07.2   | Checks for the use of `@` and if it has right domain name and `.` and three characters after that        |  HR07  | TBD-S1  |
+| LR08   | Checks whether the state input given is right state or not. Also any spelling error may lead to non acceptance of state   |  HR08  | TBD-S1  |
