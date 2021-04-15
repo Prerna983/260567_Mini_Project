@@ -14,17 +14,15 @@
 
 #include<stdio.h>
 #include<string.h>
-//#include<process.h>
 #include<stdlib.h>
 #include<ctype.h>
-//#include<dos.h>
 
 /**
  * @brief Structure to store name, address, email and phone number of a person
  * 
  */
 
-typedef struct contact
+struct contact
 {
     long long ph;
     char name[20],add[20],email[20];
