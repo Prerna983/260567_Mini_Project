@@ -14,7 +14,7 @@ int add(long long int ph, char name[20], char add[20], char email[20])
     strcpy(list.name,name);
     
     /* open the file where the data will be stored */
-    fp=fopen("C:/Users/KIIT/Desktop/260567_Mini_Project/7_Other/data-set/contact.xlsx","a");
+    fp=fopen("contact.xlsx","a");
     if(fp==NULL)
     {
         printf("Can't open file. Make sure file exits.\n");
