@@ -1,4 +1,5 @@
 #include "header.h"
+#include<string.h>
 
 /* function to delete a contact from the database based on the name of the person */
 int del(char edit_name[])
