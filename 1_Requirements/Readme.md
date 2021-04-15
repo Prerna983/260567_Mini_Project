@@ -7,12 +7,11 @@ Main aim of making this application is to provide a system to store the contact 
 -- Content 
 ## Cost and Features
 
- 
-Cost: 
+**Cost:** 
 
 This system is basically meant to store details of an employee working in an organization. So, the cost here is the time required to keep the database updated, ensuring there is no wrong data entered as well as the application works systematically and smoothly without any problems.
 
-Features:
+**Features:**
 
 The main features of this application are:
     - It stores all the main details of an employee which includes name, phone number, address and email id.
@@ -31,7 +30,7 @@ The main features of this application are:
     - Any wrong key or exit choice will lead to termination of program.
 
 ## SWOT ANALYSIS
-![SWOT-Sample](Link to Pic)
+![SWOT-Sample](https://github.com/Prerna983/260567_Mini_Project/blob/main/6_ImagesAndVideos/swot_analysis.JPG)
 
 # 4W&#39;s and 1&#39;H
 
