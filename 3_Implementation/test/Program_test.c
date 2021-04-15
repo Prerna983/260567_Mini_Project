@@ -41,81 +41,81 @@ int main()
 /* Write all the test functions */ 
 void test_Add_file(void) 
 {
-  TEST_ASSERT_EQUAL(1, Add_file(3456734857, "Yusuf", "punjab", "Yusuf@gmail.com"));
-  TEST_ASSERT_EQUAL(1, Add_file(9987876557, "Yash", "assam", "Yash@mynet.com"));
-  TEST_ASSERT_EQUAL(1, Add_file(9470018762, "Ravi", "bihar", "ravi123@rocketnet.com"));
+  TEST_ASSERT_EQUAL(1, add(3456734857, "Yusuf", "punjab", "Yusuf@gmail.com"));
+  TEST_ASSERT_EQUAL(1, add(9987876557, "Yash", "assam", "Yash@mynet.com"));
+  TEST_ASSERT_EQUAL(1, add(9470018762, "Ravi", "bihar", "ravi123@rocketnet.com"));
   
   /* Dummy fail*/
-  //TEST_ASSERT_EQUAL(0, Add_file(6743675464, "ABS", "goa", "abs@gmail.com"));
-  //TEST_ASSERT_EQUAL(0, Add_file(9563897653, "happy", "karnataka", "happy@google.com"));
+  //TEST_ASSERT_EQUAL(0, add(6743675464, "ABS", "goa", "abs@gmail.com"));
+  //TEST_ASSERT_EQUAL(0, add(9563897653, "happy", "karnataka", "happy@google.com"));
 
 }
 
 void test_Edit_file(void) 
 {
-  TEST_ASSERT_EQUAL(1, Edit_file(6743484664, "yyaas", "goa", "abs@gmail.com", "yusuf"));
-  TEST_ASSERT_EQUAL(1, Edit_file(9087848347, "happy", "west bengal", "yayy@yahoo.com", "happy"));
+  TEST_ASSERT_EQUAL(1, edit(6743484664, "yyaas", "goa", "abs@gmail.com", "yusuf"));
+  TEST_ASSERT_EQUAL(1, edit(9087848347, "happy", "west bengal", "yayy@yahoo.com", "happy"));
   
   /* Dummy fail*/
-  //TEST_ASSERT_EQUAL(0, Edit_file(9087848347, "happ", "west bengal", "happ@yahu.com", "happy"));
-  //TEST_ASSERT_EQUAL(0, Edit_file(8765697653, "ttok", "marine", "tok@allive.com", "ttok"));
+  //TEST_ASSERT_EQUAL(0, edit(9087848347, "happ", "west bengal", "happ@yahu.com", "happy"));
+  //TEST_ASSERT_EQUAL(0, edit(8765697653, "ttok", "marine", "tok@allive.com", "ttok"));
 }
 
 void test_Search_file(void) 
 {
-  TEST_ASSERT_EQUAL(1, Search_file("yusuf"));
-  TEST_ASSERT_EQUAL(1, Search_file("happ"));
-  TEST_ASSERT_EQUAL(1, Search_file("yash"));
+  TEST_ASSERT_EQUAL(1, search("yusuf"));
+  TEST_ASSERT_EQUAL(1, search("happ"));
+  TEST_ASSERT_EQUAL(1, search("yash"));
   
   /* Dummy fail*/
-  //TEST_ASSERT_EQUAL(0, Search_file("arav"));
-  //TEST_ASSERT_EQUAL(0, Search_file("hello"));
+  //TEST_ASSERT_EQUAL(0, search("arav"));
+  //TEST_ASSERT_EQUAL(0, search("hello"));
 }
 
 void test_List_file(void) {
-  TEST_ASSERT_EQUAL(1, List_file());
-  TEST_ASSERT_EQUAL(1, List_file());
+  TEST_ASSERT_EQUAL(1, view());
+  TEST_ASSERT_EQUAL(1, view());
   
   /* Dummy fail*/
-  //TEST_ASSERT_EQUAL(0, List_file());
+  //TEST_ASSERT_EQUAL(0, view());
 }
 
 void test_Delete_file(void) {
-  TEST_ASSERT_EQUAL(1, Delete_file("yusuf"));
-  TEST_ASSERT_EQUAL(1, Delete_file("happy"));
+  TEST_ASSERT_EQUAL(1, del("yusuf"));
+  TEST_ASSERT_EQUAL(1, del("happy"));
   
   /* Dummy fail*/
-  //TEST_ASSERT_EQUAL(0, Delete_file("ttok"));
+  //TEST_ASSERT_EQUAL(0, del("ttok"));
 }
 
 void test_Phone_Number(void) 
 {
-  TEST_ASSERT_EQUAL(1, Check_Ph(8445976543));
-  TEST_ASSERT_EQUAL(1, Check_Ph(9999955555));
-  TEST_ASSERT_EQUAL(1, Check_Ph(1010293847));
+  TEST_ASSERT_EQUAL(1, checkPh(8445976543));
+  TEST_ASSERT_EQUAL(1, checkPh(9999955555));
+  TEST_ASSERT_EQUAL(1, checkPh(1010293847));
   
   /* Dummy fail*/
-  //TEST_ASSERT_EQUAL(0, Check_Ph(756453));
-  //TEST_ASSERT_EQUAL(0, Check_Ph(1234567890192));
+  //TEST_ASSERT_EQUAL(0, checkPh(756453));
+  //TEST_ASSERT_EQUAL(0, checkPh(1234567890192));
 }
 
 void test_Email_ID(void) 
 {
-  TEST_ASSERT_EQUAL(1, Check_Email("abc123@gmail.com"));
-  TEST_ASSERT_EQUAL(1, Check_Email("hello@live.com"));
-  TEST_ASSERT_EQUAL(1, Check_Email("wohooo@rocketnet.com"));
+  TEST_ASSERT_EQUAL(1, isValid("abc123@gmail.com"));
+  TEST_ASSERT_EQUAL(1, isValid("hello@live.com"));
+  TEST_ASSERT_EQUAL(1, isValid("wohooo@rocketnet.com"));
   
   /* Dummy fail*/
-  //TEST_ASSERT_EQUAL(0, Check_Email("happy@yahu.com"));
+  //TEST_ASSERT_EQUAL(0, isValid("happy@yahu.com"));
 }
 
 void test_States(void) 
 {
-  TEST_ASSERT_EQUAL(1, Check_city("karnataka"));
-  TEST_ASSERT_EQUAL(1, Check_city("GOA"));
-  TEST_ASSERT_EQUAL(1, Check_city("Bihar"));
+  TEST_ASSERT_EQUAL(1, validity("karnataka"));
+  TEST_ASSERT_EQUAL(1, validity("GOA"));
+  TEST_ASSERT_EQUAL(1, validity("Bihar"));
   
   /* Dummy fail*/
-  //TEST_ASSERT_EQUAL(0, Check_city("delhi"));
-  //TEST_ASSERT_EQUAL(0, Check_city("MUMbai"));
+  //TEST_ASSERT_EQUAL(0, validity("delhi"));
+  //TEST_ASSERT_EQUAL(0, validity("MUMbai"));
 }
