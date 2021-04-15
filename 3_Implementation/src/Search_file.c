@@ -1,4 +1,5 @@
 #include "header.h"
+#include<string.h>
 
 /* function to search for a contact from the system */
 int search(char edit_name[])
