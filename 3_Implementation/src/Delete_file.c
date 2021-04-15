@@ -31,7 +31,7 @@ int del(char edit_name[])
 
             while(fread(&list,sizeof(list),1,fp)!=0)
 
-            if (stricmp(edit_name,list.name)!=0)
+            if (strcasecmp(edit_name,list.name)!=0)
 
                 fwrite(&list,sizeof(list),1,ft);
 
