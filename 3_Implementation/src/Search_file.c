@@ -23,7 +23,7 @@ int search(char edit_name[])
         l=strlen(edit_name);
         
         /* Opening the file in read mode */
-        fp=fopen("C:/Users/KIIT/Desktop/260567_Mini_Project/7_Other/data-set/contact.xlsx","r");
+        fp=fopen("contact.xlsx","r");
         if(fp==NULL)
         {
             printf("Can't open file. Make sure file exits.\n");
