@@ -20,16 +20,8 @@ src/Input_Details.c
 COV_SRC = Program_test.call
 
 # All test source files
-TEST_SRC = src/Add_file.c\
-src/Delete_file.c\
-src/Edit_file.c\
-src/List_file.c\
-src/Search_file.c\
-src/Check_city.c\
-src/Check_Email.c\
-src/check_Ph.c\
-test/Program_test.c\
-unity/unity.c\
+TEST_SRC = test/Program_test.c\
+unity/unity.c
 
 #TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
 
