@@ -14,10 +14,10 @@
 
 #include<stdio.h>
 #include<string.h>
-#include<process.h>
+//#include<process.h>
 #include<stdlib.h>
 #include<ctype.h>
-#include<dos.h>
+//#include<dos.h>
 
 /**
  * @brief Structure to store name, address, email and phone number of a person
