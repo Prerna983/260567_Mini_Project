@@ -24,7 +24,7 @@ int edit(long long int ph, char name[20], char add[20], char email[20], char edi
         
         if(strcasecmp(edit_name,list.name)!=0)
         {
-            printf("------%lld \n%s \n%s \n%s ----------\n\n",list.ph, list.add, list.email, list.name);
+            //printf("------%lld \n%s \n%s \n%s ----------\n\n",list.ph, list.add, list.email, list.name);
             fwrite(&list,sizeof(list),1,ft);
         }
     }    
