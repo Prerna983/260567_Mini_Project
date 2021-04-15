@@ -67,12 +67,13 @@ It can also help keep track of total employees working.
 # Detail requirements
 ## High Level Requirements:
 --- TBD in Tabular Format 
-  ID  | Description | Status (Implemented/Future)
- HR01 | Add         | TBD-S1  
- HR02 | View        | TBD-S1
- HR03 | Edit        | TBD-S1
- HR04 | Search      | TBD-S1
- HR05 | Delete      | TBD-S1
+ | ID  | Description | Status (Implemented/Future) |
+ | --- | --- | --- |
+ | HR01 | Add         | TBD-S1 |
+ | HR02 | View        | TBD-S1 |
+ | HR03 | Edit        | TBD-S1 |
+ | HR04 | Search      | TBD-S1 |
+ | HR05 | Delete      | TBD-S1 |
 
 ##  Low level Requirements:
 --- TBD in Tabular Format 
