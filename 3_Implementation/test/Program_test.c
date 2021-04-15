@@ -63,8 +63,8 @@ void test_Edit_file(void)
 
 void test_Search_file(void) 
 {
-  TEST_ASSERT_EQUAL(0, search("yusuf"));
-  TEST_ASSERT_EQUAL(1, search("happ"));
+  
+  TEST_ASSERT_EQUAL(1, search("happy"));
   TEST_ASSERT_EQUAL(1, search("yash"));
   
   /* Dummy fail*/
