@@ -10,7 +10,7 @@ int del(char edit_name[])
     printf("\n==========================DELETE A CONTACT========================================\n\n");
 
      /* opening two file, a main and a temporary file*/
-    fp=fopen("C:/Users/KIIT/Desktop/260567_Mini_Project/7_Other/data-set/contact.xlsx","r");
+    fp=fopen("contact.xlsx","r");
     ft=fopen("temp.dat","w");
     
     /* checking for the name in the list to delete it */
@@ -23,7 +23,7 @@ int del(char edit_name[])
     fclose(ft);
     
     /* finally removing the selected contact */
-    /*fp=fopen("C:/Users/KIIT/Desktop/260567_Mini_Project/7_Other/data-set/contact.xlsx","w");
+    /*fp=fopen("contact.xlsx","w");
     ft=fopen("temp.dat","r");
     
     while(fread(&list, sizeof(list), 1, ft))
@@ -39,9 +39,9 @@ int del(char edit_name[])
 
         fclose(ft);
 
-        remove("C:/Users/KIIT/Desktop/260567_Mini_Project/7_Other/data-set/contact.xlsx");
+        remove("contact.xlsx");
 
-        rename("temp.dat","C:/Users/KIIT/Desktop/260567_Mini_Project/7_Other/data-set/contact.xlsx");
+        rename("temp.dat","contact.xlsx");
 
     delete_done=1;
     printf("\n\nRecord Deleted Successfully. \n\n");
