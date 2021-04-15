@@ -5,7 +5,7 @@ Visit [Pages for Report -optional](using github.io option)
 Build | Code Quality | Unity | Coverage | [Git Inspector](using github.io option)
 ------|----------|-------|--------| ------
 
-[![C/C++ CI - Build Status](https://github.com/Prerna983/260567_Mini_Project/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/Prerna983/260567_Mini_Project/actions/workflows/c-cpp.yml) | [![Code Quality - Static Code - Cppcheck](https://github.com/Prerna983/260567_Mini_Project/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/Prerna983/260567_Mini_Project/actions/workflows/cppcheck.yml) [![CodeQuality Dynamic Code Analysis Valgrind](https://github.com/Prerna983/260567_Mini_Project/actions/workflows/CodeQuality_Dynamic.yml/badge.svg)](https://github.com/Prerna983/260567_Mini_Project/actions/workflows/CodeQuality_Dynamic.yml)  | [![Unit Testing - Unity](https://github.com/Prerna983/260567_Mini_Project/actions/workflows/unity.yml/badge.svg)](https://github.com/Prerna983/260567_Mini_Project/actions/workflows/unity.yml) | [![CI-Coverage](https://github.com/Prerna983/260567_Mini_Project/actions/workflows/gcov.yml/badge.svg)](https://github.com/Prerna983/260567_Mini_Project/actions/workflows/gcov.yml) | [![Contribution Check - Git Inspector](https://github.com/Prerna983/260567_Mini_Project/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/Prerna983/260567_Mini_Project/actions/workflows/gitinspector.yml)
+[![Build](https://github.com/Prerna983/260567_Mini_Project/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/Prerna983/260567_Mini_Project/actions/workflows/c-cpp.yml) | [![Cppcheck](https://github.com/Prerna983/260567_Mini_Project/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/Prerna983/260567_Mini_Project/actions/workflows/cppcheck.yml) [![Valgrind](https://github.com/Prerna983/260567_Mini_Project/actions/workflows/CodeQuality_Dynamic.yml/badge.svg)](https://github.com/Prerna983/260567_Mini_Project/actions/workflows/CodeQuality_Dynamic.yml)  | [![Unity](https://github.com/Prerna983/260567_Mini_Project/actions/workflows/unity.yml/badge.svg)](https://github.com/Prerna983/260567_Mini_Project/actions/workflows/unity.yml) | [![CI-Coverage](https://github.com/Prerna983/260567_Mini_Project/actions/workflows/gcov.yml/badge.svg)](https://github.com/Prerna983/260567_Mini_Project/actions/workflows/gcov.yml) | [![Git Inspector](https://github.com/Prerna983/260567_Mini_Project/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/Prerna983/260567_Mini_Project/actions/workflows/gitinspector.yml)
 
 
 ## Folder Structure
@@ -42,6 +42,13 @@ PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Case
 2. | Asked company friends and they helped me in it.
 3. | Searched on the net about what should be included and made it accordingly.
 4. | A company friend suggested me an online method to make it. Thanks to his help it got finished early than expected.
+
+## Github Actions
+
+1. Build using Make for CI
+2. Unit tests with Cunit
+3. Static code analysis using cppcheck
+4. Dynamic Code analysis using Valgrind
 
 ## Learning Resources
 1. [markdownCheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
