@@ -23,7 +23,7 @@ COV_SRC = Program_test.call
 TEST_SRC = test/Program_test.c\
 unity/unity.c
 
-#TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
+TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
 
 # All include folders with header files
 INC_H = inc
