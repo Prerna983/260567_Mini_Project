@@ -109,7 +109,7 @@ void test_Email_ID(void)
   //TEST_ASSERT_EQUAL(0, isValid("happy@yahu.com"));
 }
 
-void test_States(void) 
+void test_State(void) 
 {
   TEST_ASSERT_EQUAL(1, validity("karnataka"));
   TEST_ASSERT_EQUAL(1, validity("GOA"));
