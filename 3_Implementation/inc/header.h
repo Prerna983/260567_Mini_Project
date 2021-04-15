@@ -24,7 +24,7 @@
  * 
  */
 
-struct contact
+typedef struct contact
 {
     long long ph;
     char name[20],add[20],email[20];
