@@ -36,6 +36,8 @@ int isValid(char test[])
                 if ((pos2 - ch) > 3 && *ch == '.') 
                 {
                     //printf("pos2 - ch is %d and *ch is %c",pos2 - ch, *ch);
+                    
+                    /* using it to point to the character at p2 (@) and then running it till we get '.' so that we can compare the string domain of email with the right address */
                     pos3=pos1;
                     for ( ch = pos1; *ch; *ch++) 
                     {
@@ -47,6 +49,8 @@ int isValid(char test[])
                       else
                         break;
                     }
+                    
+                    /* comparing the string with the valid domain of id */
                     if(!strcmp(data,"@gmail") || !strcmp(data,"@mynet") || !strcmp(data,"@rocketnet") || !strcmp(data,"@sky") || !strcmp(data,"@live") || strcmp(data,"@rogers") || strcmp(data,"@yummy") || !strcmp(data,"@yahoo") || !strcmp(data,"@hotmail") || !strcmp(data,"@rediffmail") || !strcmp(data,"@outlook") || !strcmp(data,"@google")) // compares the string with valid email ids
                         return 1;
                 }
