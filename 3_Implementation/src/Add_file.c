@@ -7,7 +7,8 @@ int add(long long int ph, char name[20], char add[20], char email[20])
     //system("cls");
 
     int add_done=0;
-
+    
+    /* copyong the parameters into the list */
     list.ph=ph;
     strcpy(list.add,add);
     strcpy(list.email,email);
