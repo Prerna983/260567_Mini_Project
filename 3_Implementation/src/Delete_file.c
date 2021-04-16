@@ -14,34 +14,18 @@ int del(char edit_name[])
     ft=fopen("temp.dat","w");
     
     /* checking for the name in the list to delete it */
-    /*while(fread(&list,sizeof(list),1,fp))
-        if (stricmp(edit_name,list.name)!=0)
-            fwrite(&list,sizeof(list),1,ft);
+    while(fread(&list,sizeof(list),1,fp)!=0)
+         if (strcasecmp(edit_name,list.name)!=0)
+             fwrite(&list,sizeof(list),1,ft);
     
-    /* close of opened files */
-    /*fclose(fp);
+    /* closing the opened file pointers */
+    fclose(fp)
     fclose(ft);
     
-    /* finally removing the selected contact */
-    /*fp=fopen("contact.xlsx","w");
-    ft=fopen("temp.dat","r");
-    
-    while(fread(&list, sizeof(list), 1, ft))
-        fwrite(&list, sizeof(list), 1, fp);*/
-
-            while(fread(&list,sizeof(list),1,fp)!=0)
-
-            if (strcasecmp(edit_name,list.name)!=0)
-
-                fwrite(&list,sizeof(list),1,ft);
-
-        fclose(fp);
-
-        fclose(ft);
-
-        remove("contact.xlsx");
-
-        rename("temp.dat","contact.xlsx");
+    /* Since the data cannot be delete from a file, we write the data whose name does not match with the name present in the file */
+    /* Then we rename the new file as the old one */
+    remove("contact.xlsx");
+    rename("temp.dat","contact.xlsx");
 
     delete_done=1;
     printf("\n\nRecord Deleted Successfully. \n\n");
