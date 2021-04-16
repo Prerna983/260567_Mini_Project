@@ -99,7 +99,7 @@ It can also help keep track of total employees working.
  
 
 ##  Low level Requirements:
---- TBD in Tabular Format 
+
 |  ID    |                           Description                           | HLR ID | Status (Implemented/Future) |
 | --- | --- | --- | --- |
 | LR01   | Addition of new records during new recruitment                  |  HR01  | TBD-S1  |
