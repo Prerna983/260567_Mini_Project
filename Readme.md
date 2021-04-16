@@ -28,7 +28,7 @@ Folder             | Description
 
 PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
 -------|---------|----------------|----------------|---------------|-------------|--------------
-260567 | Prerna Agrawal  | Contact Management System    | No     |  Yes   |X 8   | X Yes     
+260567 | Prerna Agrawal  | Contact Management System    | No     |  Yes   | 8   |  Yes     
 
 
 ## Challenges Faced and How Was It Overcome
