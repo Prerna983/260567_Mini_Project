@@ -1,10 +1,12 @@
 # Requirements
 ## Introduction
-Main aim of making this application is to provide a system to store the contact details of all the employees in an organization so that the information can be useful in retrieving the data of a particular employee during times of need as well as to have a record of all those people working in the organization. It will help keep track of the employees working that organization and any suspecious looking contact or person can be traced and reported to the police for enquiry. Thus, it can prove to be useful for regular checks as well as to monitor the employees.
+The main aim of making this application is to provide a system to store the contact details of all the employees in an organization so that the information can be useful in retrieving the data of a particular employee during times of need as well as to have a record of all those people working in the organization. It will help keep track of the employees working that organization and any suspecious looking contact or person can be traced and reported to the police for enquiry. Thus, it can prove to be useful for regular checks as well as to monitor the employees.
 
 ## Research
-![Description](Link to Pic)
--- Content 
+While thinking of a project topic, **Contact Management System** caught my attention. The first thing that came to my mind was that we can use this to store details but of what use can this be for anyone by just storing contact details of a person? Actually watching the serial: **'CID'**, I remembered how they always use contact details and name details to search for a person working in an organization or if they are in the records of the police. They most of the time had to go to the place where that person worked. So what if I make an application that can be used by only the authorized person from any part of the world? That can save a lot of time searching about a person. Also, when someone stays somewhere or when they do some suspicious activity, people can share their information to the police so that they can arrest the person and know his real intensions without even letting other people know about it and any chaos can be avoided. And if something is really off, one can then inform the others. 
+
+So, as a precautive and registering measure, this application can be used for dual purpose. It contains the name of the person, their phone number, email ID and the state in which they live. This application can be modified in the future with more details but as for a mini project I have kept this as simple as possible. But in order to prevent any wrong entries, I am also checking for the right email ID format, and also that the number provided is a 10-digit number or not. Number and email verification too can be provided in the future with the login details of the authorized person.
+
 ## Cost and Features
 
 **Cost:** 
@@ -29,8 +31,24 @@ The main features of this application are:
     - After finishing they will be given a choice to continue back to menu or exit.
     - Any wrong key or exit choice will lead to termination of program.
 
+## Working Of the Project
+
+The program flow is based on the following flowchart:
+
+![Flow Chart](https://github.com/Prerna983/260567_Mini_Project/blob/main/6_ImagesAndVideos/FlowChart.png)
+
+
+This flow chart tells as how the system works.
+    - There is the usage of do-while loop to make the program run until the user really wants to exit
+    - Then there is a switch case loop to check what did the user input ( as in add, edit, delete, display, search or exit )
+    - Next based on the conditions user has to enter the details and a name for edit, search and delete options
+    - If the user wants to continue they can and if the don't, then they can choose to exit.
+
+
+
 ## SWOT ANALYSIS
-![SWOT-Sample](https://github.com/Prerna983/260567_Mini_Project/blob/main/6_ImagesAndVideos/swot_analysis.JPG)
+
+![SWOT-Sample](https://github.com/Prerna983/260567_Mini_Project/blob/main/6_ImagesAndVideos/swot.JPG)
 
 # 4W&#39;s and 1&#39;H
 
