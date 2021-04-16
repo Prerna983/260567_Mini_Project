@@ -1,6 +1,6 @@
 #include "header.h"
 
-/* function to list the contacts present in the system */
+/* function to display the contacts present in the file */
 int view()
 {
     /* clearing the screen */
@@ -19,6 +19,7 @@ int view()
         /* opening the file */
         fp=fopen("contact.xlsx","r");
         
+        /* Checking if the file is present or not */
         if(fp==NULL)
         {
             printf("Can't open file. Make sure file exits.\n");
@@ -32,8 +33,6 @@ int view()
         {
             if(list.name[0]==i || list.name[0]==i-32)
             {
-                /*printf("\nName\t: %s   Phone\t: %ld   Address\t: %s    Email\t: %s \n",list.name,
-                    list.ph,list.add,list.email);*/
                 printf("%s\t\t %lld\t\t %s\t\t %s\n", list.name, list.ph, list.add, list.email);
                 found++;
             }
