@@ -48,7 +48,7 @@ This flow chart tells as how the system works.
 
 ## SWOT ANALYSIS
 
-![SWOT-Sample](https://github.com/Prerna983/260567_Mini_Project/blob/main/6_ImagesAndVideos/swot.JPG)
+![SWOT-Sample](https://github.com/Prerna983/260567_Mini_Project/blob/main/6_ImagesAndVideos/swots.JPG)
 
 # 4W&#39;s and 1&#39;H
 
