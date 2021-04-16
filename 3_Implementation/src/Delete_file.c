@@ -19,7 +19,7 @@ int del(char edit_name[])
              fwrite(&list,sizeof(list),1,ft);
     
     /* closing the opened file pointers */
-    fclose(fp)
+    fclose(fp);
     fclose(ft);
     
     /* Since the data cannot be delete from a file, we write the data whose name does not match with the name present in the file */
